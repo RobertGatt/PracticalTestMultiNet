@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>  
+    <div class = "mainTitle">Practical Test - Robert Gatt</div>
+    <br><br>
+    <div class="enterDetails">Enter any type of value (String or number)</div>
+    <br/>
+    <div class="allDetails">
+      <div class="inputDetail">
+        <label class="inputLabel" for="inputs">Enter an input:</label>
+        <input type="string" id="inputs" />
+      </div>
+      <div class="inputDetail">
+        <button type="button" id="submitDetails" onclick="submitChanges()">Submit</button>
+      </div>
+      <br><br>
+      <div class="enterDetails" id="yourInputs">Your inputs</div>
+      <br>
+    <div class= "inputDetail" id="usersInput"></div>
+      <br>
+    <div class="enterDetails">Choose to make the list in ascending or descending order</div>
+    <br>
+    <span class="inputDetail">
+        <button type="button" id="ascendingOrder" onclick="ascendingOrder()">Ascending Order</button>
+      </span>
+      <span class="inputDetail">
+        <button type="button" id="descendingOrder" onclick="descendingOrder()">Descending Order</button>
+      </span>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

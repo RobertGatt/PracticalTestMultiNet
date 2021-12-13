@@ -1,0 +1,30 @@
+*{
+        font-family: "Courier New", "Courier New", monospace;
+}
+
+.mainTitle{
+    
+    border-top: 7px solid rgb(24,80,104);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, rgba(255,0,0,0),rgb(24, 80, 104));
+    color: white;
+    box-shadow: 10px 10px 20px black;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+  }
+
+  .enterDetails{
+    height:2rem;
+    background-image: linear-gradient(to left, rgba(255,0,0,0),rgba(100,170,200,1));
+    box-shadow: 5px 5px 10px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    
+  }
